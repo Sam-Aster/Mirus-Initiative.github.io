@@ -1,10 +1,220 @@
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <h1>
-      Hello
-    </h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sam Aster">
+  <meta name="description"
+    content="The Mirus Initiative provides tools and services that enhance and protect users of social media networks.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <title>
+    Mirus Initiative
+  </title>
+  <style>
+    .navbar {
+      position: fixed;
+      text-align: right;
+      top: 0;
+      width: 95%;
+      line-height: 30px;
+    }
+
+    .navbar a {
+      padding: 2px 4px;
+      background-color: deepskyblue;
+      border: 2px groove chocolate;
+      border-radius: 5%;
+      color: black
+    }
+
+    .navbar.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .title {
+      background-color: aqua;
+      border: 2px;
+      border-radius: 5%;
+      border-style: groove;
+      border-color: chocolate;
+      text-align: center;
+      line-height: 20px;
+      float: left;
+    }
+
+    .section {
+      margin: 0px 30px 10px 35px;
+    }
+
+    .sectionTitle {
+      padding: 0pt 10px;
+      line-height: 12px;
+      display: inline-block;
+      background-color: aqua;
+      border: 2px;
+      border-radius: 5%;
+      border-style: groove;
+      border-color: chocolate;
+      text-align: center;
+    }
+
+    .subtitle {
+      padding: 5px 10px;
+      border: chocolate ridge 2px;
+      border-radius: 5%;
+      background-color: aqua;
+      display: inline-block;
+      width: -moz-fit-content;
+      width: fit-content;
+      max-width: 65%;
+      vertical-align: middle;
+      text-align: center;
+      margin: 20px 40px;
+    }
+
+    .details {
+      border: chocolate ridge 2px;
+      border-radius: 5%;
+      padding: 15px 30px;
+    }
+
+    header {
+      display: inline-block;
+      padding-top: 30px;
+      margin: 0px auto;
+    }
+
+    h3 {
+      margin: 5px;
+    }
+
+    p {
+      padding: 5px 20px 0px;
+      text-indent: 4ch;
+      text-align: justify;
+      margin: 1px;
+    }
+
+    ul {
+      border: chocolate ridge 2px;
+      border-radius: 5%;
+      padding: 15px 30px;
+    }
+
+    li {
+      padding: 5px 10px 5px;
+      text-align: justify;
+    }
+
+    address {
+      margin: 0px 30px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="#About">About</a>
+    <a href="#CurrentProject">Current Project</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <header>
+    <span class="title">
+      <h1>Mirus Initiative</h1>
+      <h3>Services for Community Leaders and Members</h3>
+    </span>
+  </header>
+  <main>
+    <div class="section">
+      <span id="About" class="sectionTitle">
+        <h2>
+          About Us</h2>
+      </span>
+      <h3 class="subtitle">The Mirus Initiative endeavors to enhance the natural ability of individuals to express
+        themselves freely.</h3>
+      <div class="details">
+        <p><strong>Embracing the unique qualities of every person is what drives society. </strong></p>
+        <p>For as long as
+          humanity
+          has graced this planet we call home, there has been individuality and fellowship. We express ourselves
+          uniquely
+          and find confidence when we are embraced by family, friends, and strangers alike. We live in a world that
+          depends on the special qualities that each of us brings on our own in order for society to prosper.</p>
+        <p><strong>Unfortunately, diversity and being ourselves isn't always embraced. </strong></p>
+        <p>For many, being ourselves has been met with sentiments that don't embrace us as individuals, simply because
+          we were different. Discrimination, harrassment, abuse, and neglect were symptoms of a society that rejected
+          our personalities, our ambitions, our personal pursuit of happiness. because of this, many feel shamed,
+          fearful to express themselves freely and openly, forcing ourselves to mold to the opinions of others.</p>
+        <p><strong>Despite years of seeking fair and equal treatment, marginalized communities continue to suffer.
+          </strong></p>
+        <p>It's often thought as a thing of the past, especially with laws that are in place meant to protect
+          personal expression. However, even in modern times, everyday citizens and officials alike step over the
+          safeguards that are meant to ensure our right to be ourselves and live freely.</p>
+        <p><strong>We stand by each and every person and the communities that support them. </strong></p>
+        <p>The Mirus Initiative was born from the observation that, even in light of societies that take away
+          personalities of everyday individuals, communities across the globe sprout out in support of individual
+          expressions. In spite of the efforts of those unwilling to embrace distinctions, we stand tall amongst those
+          who accept us for being genuine to ourselves. It was in witnessing the perseverance of marginalized persons
+          and communities that Sam Aster started working on developing tools that enhanced the natural abilities of
+          individuals to be themselves. The Mirus Initiative is the collective source for these tools.</p>
+      </div>
+    </div>
+    <div class="section">
+      <span id="CurrentProject" class="sectionTitle">
+        <h2>Current Project</h2>
+      </span>
+      <h3 class="subtitle">Cosmos: A Discord Client Application</h3>
+      <p>Currently being built with Discord.js, Cosmos is a client application concept with some key features:</p>
+      <ul>
+        <li><strong>Server Creation:</strong> Cosmos takes the time-consuming process of structuring a new server by
+          building the server for you. Everything from roles, channels and categories, verification and permission
+          management, and content filtering can be ready to go in a matter of seconds, rather than minutes or hours.
+        </li>
+        <li><strong>Raider Deterence:</strong> For communities that find themselves at the mercy of malicious attackers,
+          get some peace of mind with tools that deter and minimize the potential impact that raiders can have on your
+          servers. Cosmos can build verification servers and dummy channels that keep raiders separated and oblivious to
+          your community. In addition, Cosmos can keep servers backed up, so that in the event a server is raided, you
+          can wipe the server and relocate your members to safety as quickly as possible without losing crucial content.
+        </li>
+        <li><strong>Server Management:</strong> Cosmos is not just for getting you started, but keeping you going.
+          Designed for promoting interactivity and inclusivity, Cosmos rewards those who actively and positively
+          contributes to the conversation, while discouraging users whose actions brew a negative atmosphere. Automated
+          announcements, automod, and seamless role management keeps leaders focused on what matters: spending time with
+          their members. </li>
+        <li><strong>Bot Presence:</strong> Cosmos is more than just management, it's a friend. Through slash commands
+          and active listening, Cosmos is being designed to entertain, uplift, and encourage members in every
+          interaction, treating every person as not just a user, but an individual Some features in planned development
+          include birthday, holiday, and celebratory announcements, as well as private journaling.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <span id="Contact" class="sectionTitle">
+        <h2>Contact Us</h2>
+      </span>
+      <h3 class="subtitle">We want to chat with you!</h3>
+      <p>Being an organization that thrives on inclusiveness, it would be silly not to want to hear from others. Please
+        feel free to use the following information to communicate with us and learn more about the Mirus Initiative and
+        its projects.</p>
+      <div class="details">
+        <p><strong>Sam Aster, the developer behind Cosmos can be reached by the following means:</strong></p>
+        <address class="address">
+          <a href="mailto:hempster.og@gmail.com" target="_blank">Email</a>
+          <a href="tel:+1-719-695-0179" target="_blank">Call or SMS</a>
+        </address>
+
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <p><strong>This site is in active development. You can support us by using the contact information on this page to
+        suggest improvements!</strong></p>
+    <p>Copyright Mirus Initiative 2023</p>
+  </footer>
+</body>
+
 </html>
